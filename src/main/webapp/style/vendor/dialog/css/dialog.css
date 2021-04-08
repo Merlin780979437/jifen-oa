@@ -1,0 +1,68 @@
+.j-dialog{background-color:#FFF;font-size:14px;font-family:Arial,helvetica,"Microsoft Yahei",sans-serif;position:absolute;clear:left;overflow:hidden}
+.j-translucent-border{-moz-background-clip:padding;-webkit-background-clip:padding;background-clip:padding-box;border:8px solid rgba(0,0,0,0.2);border-radius:5px}
+.j-dialog-fix{position:fixed}
+.j-dialog.j-user-select{-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}
+.j-dialog .j-dialog-title{line-height:15px;padding-top:10px;padding-bottom:10px;font-weight:bold;font-size:14px;text-indent:10px;background:#D6D6D6;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}
+.j-dialog .j-draggable{cursor:move}
+.j-dialog .j-dialog-txt{font-size:14px;font-weight:bold;color:#666}
+.j-dialog .j-dialog-close{background:url(../img/dialog-close.png) no-repeat;line-height:normal;text-decoration:none;width:32px;height:32px;position:absolute;right:4px;top:2px}
+.j-dialog .j-dialog-content{color:#454545;padding:12px 0}
+.j-dialog .j-dialog-buttons{font-size:12px;padding:0 16px 10px 0;margin:0;text-align:right}
+.j-dialog .j-dialog-buttons .first-child{color:#fff}
+.j-dialog .j-dialog-buttons .first-child:hover{background:#F27D2A}
+.j-dialog .j-dialog-btn{margin-left:6px;cursor:pointer;border:0;padding:6px 14px;font-size:14px;display:inline-block;color:#666;background:#D6D6D6}
+.j-dialog .j-dialog-btn:hover,.j-dialog .j-dialog-btn.x-hover{color:#FFF;background:#188bf6}
+.j-dialog .j-dialog-btn.x-highlight{color:#fff;background:#188bf6}
+.j-dialog .j-dialog-btn.x-highlight:hover,.j-dialog .j-dialog-btn.x-highlight.x-hlhover{background:#188bf6}
+.j-dialog .j-triangle{display:block;position:relative}
+.j-dialog .j-triangle .t-border,.j-dialog .j-triangle .t-inset{left:0px;top:0px;width:0;height:0;font-size:0;overflow:hidden;position:absolute;border-width:12px;border-style:dashed solid dashed dashed}
+.j-dialog .j-triangle .t-border{border-color:transparent #aaa transparent transparent;left:-1px}
+.j-dialog .j-triangle .t-inset{border-color:transparent #fff transparent transparent}
+.j-dialog .j-triangle.anchor-bottom .t-border,.j-dialog .j-triangle.anchor-bottom .t-inset{border-style:solid dashed dashed dashed}
+.j-dialog .j-triangle.anchor-bottom .t-border{border-color:#aaa transparent transparent transparent;left:0px;top:1px}
+.j-dialog .j-triangle.anchor-bottom .t-inset{border-color:#fff transparent transparent transparent}
+.j-dialog .j-triangle.anchor-top .t-border,.j-dialog .j-triangle.anchor-top .t-inset{border-style:dashed dashed solid dashed}
+.j-dialog .j-triangle.anchor-top .t-border{border-color:transparent transparent #aaa transparent;left:0px;top:-1px}
+.j-dialog .j-triangle.anchor-top .t-inset{border-color:transparent transparent #fff transparent}
+.j-dialog .j-triangle.anchor-right .t-border,.j-dialog .j-triangle.anchor-right .t-inset{border-style:dashed dashed dashed solid}
+.j-dialog .j-triangle.anchor-right .t-border{border-color:transparent transparent transparent #aaa;left:1px;top:0}
+.j-dialog .j-triangle.anchor-right .t-inset{border-color:transparent transparent transparent #fff}
+.j-dialog-mask{background-color:#000;filter:alpha(opacity = 40);opacity:.4;zoom:1;left:0;position:absolute;top:0;width:100%}
+.j-dialog .resizable-es{bottom:0;cursor:se-resize;height:10px;position:absolute;right:0;width:10px}
+.j-dialog .resizable-es div{border-bottom:3px double #bbb;border-right:3px double #bbb;height:6px;width:6px;line-height:0;position:absolute;left:0;top:0}
+@-webkit-keyframes wobble{0%{-webkit-transform:translateX(0%)}
+15%{-webkit-transform:translateX(-25%) rotate(-5deg)}
+30%{-webkit-transform:translateX(20%) rotate(3deg)}
+45%{-webkit-transform:translateX(-15%) rotate(-3deg)}
+60%{-webkit-transform:translateX(10%) rotate(2deg)}
+75%{-webkit-transform:translateX(-5%) rotate(-1deg)}
+100%{-webkit-transform:translateX(0%)}
+}@-moz-keyframes wobble{0%{-moz-transform:translateX(0%)}
+15%{-moz-transform:translateX(-25%) rotate(-5deg)}
+30%{-moz-transform:translateX(20%) rotate(3deg)}
+45%{-moz-transform:translateX(-15%) rotate(-3deg)}
+60%{-moz-transform:translateX(10%) rotate(2deg)}
+75%{-moz-transform:translateX(-5%) rotate(-1deg)}
+100%{-moz-transform:translateX(0%)}
+}@-ms-keyframes wobble{0%{-ms-transform:translateX(0%)}
+15%{-ms-transform:translateX(-25%) rotate(-5deg)}
+30%{-ms-transform:translateX(20%) rotate(3deg)}
+45%{-ms-transform:translateX(-15%) rotate(-3deg)}
+60%{-ms-transform:translateX(10%) rotate(2deg)}
+75%{-ms-transform:translateX(-5%) rotate(-1deg)}
+100%{-ms-transform:translateX(0%)}
+}@-o-keyframes wobble{0%{-o-transform:translateX(0%)}
+15%{-o-transform:translateX(-25%) rotate(-5deg)}
+30%{-o-transform:translateX(20%) rotate(3deg)}
+45%{-o-transform:translateX(-15%) rotate(-3deg)}
+60%{-o-transform:translateX(10%) rotate(2deg)}
+75%{-o-transform:translateX(-5%) rotate(-1deg)}
+100%{-o-transform:translateX(0%)}
+}@keyframes wobble{0%{transform:translateX(0%)}
+15%{transform:translateX(-25%) rotate(-5deg)}
+30%{transform:translateX(20%) rotate(3deg)}
+45%{transform:translateX(-15%) rotate(-3deg)}
+60%{transform:translateX(10%) rotate(2deg)}
+75%{transform:translateX(-5%) rotate(-1deg)}
+100%{transform:translateX(0%)}
+}.j-ani-wobble{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:wobble;-moz-animation-name:wobble;-ms-animation-name:wobble;-o-animation-name:wobble;animation-name:wobble}

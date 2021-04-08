@@ -1,0 +1,112 @@
+@charset "utf-8";.ie{background-color:#fff}
+body{background-color:#fff}
+body,ul,li,p,td{margin:0;padding:0;font-family:Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",STHeiti,sans-serif;color:#525866;font-size:14px}
+ol,ul{list-style:none}
+.fn-hide{display:none}
+.hide{display:none}
+input[type="text"],input[type="password"],input[type="tel"],input[type="email"],button{background-color:#FFF !important;background-image:none !important;line-height:16px;margin:0;font-family:Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",STHeiti,sans-serif}
+input[type="text"]:focus,input[type="password"]:focus,input[type="tel"]:focus,input[type="email"]:focus,button:focus{background-color:#FFF !important;outline:0}
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px white inset}
+a{text-decoration:none}
+.ptb0{padding-top:0px !important;padding-bottom:0px !important}
+.w250{width:100% !important}
+.w104{width:104px !important}
+.login-main .login-header{height:73px;line-height:73px;font-size:26px;color:#444;font-weight:bold}
+.login-content{height:520px;background:#0f67c1}
+.login-header,.login-con{width:1000px;margin:0 auto}
+.login-con{height:550px;overflow:hidden}
+.login-box{width:300px;height:370px;float:right;margin-top:55px;padding:30px 30px 0 30px;background:#fff;border-radius:14px;background:url(../images/login/kuang_bg.png) repeat}
+.login-box .login-error{color:#FA0505;width:270px;min-height:25px;margin-top:4px}
+.login-username,.login-pass{margin-bottom:20px}
+.login-username input,.login-pass input{width:244px !important;line-height:16px;padding-left:4px;height:40px;font-size:14px !important;color:#959595 !important;border:none !important}
+.ie .login-username input,.ie .login-pass input{height:38px}
+.mar-r-49{margin-right:49px}
+.login-portrait{padding-bottom:35px;text-align:center}
+.login-username .login-icon,.login-pass .login-icon{float:left;width:50px;height:40px;line-height:40px;color:#fff}
+.login-username .login-icon i{background:url(../images/login/loginicon.png) repeat;display:block;height:40px;width:50px}
+.login-pass .login-icon i{background:url(../images/login/loginicon.png) repeat;background-position:left -79px !important;display:block;height:40px;width:50px}
+.login-btn{text-align:center}
+.login-btn input{width:144px;text-align:center;background:#f77833;line-height:39px;height:40px;font-size:19px;border:none;color:white;font-family:"Microsoft Yahei";cursor:pointer;outline:none;display:inline-block}
+.mar-l-40{margin-left:40px !important}
+.login-forget{width:100%;height:22px;color:#fff;margin-bottom:15px}
+.login-forget a{color:#FFF;float:right;text-decoration:none}
+.login-forget>.jx-ckb{position:relative;display:inline-block;margin:0;padding:0;vertical-align:middle;width:26px;height:24px}
+.jx-ckb input,.jx-ckb-slider input,.jx-radio input{display:block;position:absolute;top:0;right:0;bottom:0;left:0;width:0%;height:0%;margin:0 0;cursor:pointer;opacity:0;filter:alpha(opacity=0)}
+.jx-ckb{position:relative;display:inline-block;min-height:16px;margin-right:18px}
+.jx-ckb label>span{cursor:pointer;position:absolute;width:18px;height:18px;top:0;left:0;background:#fff;border:1px solid #b6bcbd}
+.jx-ckb label>input + span:after{opacity:0;filter:alpha(opacity=0);content:'';position:absolute;width:10px;height:5px;background:transparent;top:3px;left:3px;border:3px solid #000;border-top:none;border-right:none;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+.jx-ckb label>input:disabled + span{background:#eee;cursor:not-allowed}
+.jx-ckb label>input:checked + span:after{opacity:1;filter:alpha(opacity=100)}
+.sign-head{width:100%;position:relative}
+.sign-head img{width:100%}
+.sign-container{width:1200px;margin:0 auto 0}
+.sign-container>.sign-main{padding:10px 260px 30px}
+.sign-container .sign-nav{display:block;position:relative;width:400px;margin:0 auto;text-align:center}
+.sign-container .sign-nav>.nav-tabs{position:relative;display:block;border-bottom:1px solid #ddd;margin-left:0;margin-bottom:10px}
+.sign-container .sign-nav>.nav-tabs:before,.sign-container .sign-nav>.nav-tabs:after{display:table;content:"";line-height:0}
+.sign-container .sign-nav>.nav-tabs:after{clear:both}
+.sign-container .sign-nav>.nav-tabs>li{float:left;margin-bottom:-1px}
+.sign-container .sign-nav>.nav-tabs>li>a{display:block;padding-top:8px;padding-bottom:8px;padding-right:12px;padding-left:12px;margin-right:2px;line-height:20px;color:#555555;border:1px solid transparent;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0}
+.sign-container .sign-nav>.nav-tabs>li>a:hover,.sign-container .sign-nav>.nav-tabs>li>a:focus{text-decoration:none;background-color:#eeeeee;border-color:#eeeeee #eeeeee #dddddd}
+.sign-container .sign-nav>.nav-tabs>.active>a,.sign-container .sign-nav>.nav-tabs>.active>a:hover,.sign-container .sign-nav>.nav-tabs>.active>a:focus{background-color:white;border:1px solid #ddd;border-bottom-color:transparent;cursor:default}
+.sign-container .sign-step,.sign-container .reset-step{margin:8px auto;width:326px;position:relative;text-align:center}
+.sign-container .sign-step .step-wrapper.active,.sign-container .reset-step .step-wrapper.active{color:#238efa}
+.sign-container .sign-step .step-wrapper,.sign-container .reset-step .step-wrapper{display:inline-block;text-align:center;color:#8f9bb3}
+.sign-container .sign-step .step-wrapper:first-child{position:absolute;left:0;top:0}
+.sign-container .sign-step .step-wrapper:last-child{position:absolute;right:0;top:0}
+.sign-container .sign-step:before{left:18%}
+.sign-container .sign-step:after{right:18%}
+.sign-container .sign-step:after,.sign-container .sign-step:before{content:"";position:absolute;height:1px;width:20%;background-color:#e1e6f0;top:30%}
+.sign-container .reset-step .step-wrapper{padding:0 10px}
+.sign-container .reset-line{display:inline-block;height:1px;background-color:#d9d9d9;width:13%;top:14px;margin-left:-8%;position:absolute}
+.sign-icon{font-size:24px !important;display:block !important;width:56px !important}
+.sign-content{width:560px;height:auto;margin:30px auto}
+.sign-content ul,.sign-btn-wrapper{margin-top:2%;margin-left:26%}
+.sign-content li{clear:both;margin-bottom:12px;position:relative}
+.sign-input{position:relative;width:316px;padding-top:10px;padding-bottom:10px;padding-left:4px;padding-right:4px;border:1px solid #ddd;border-radius:3px;background-color:#fff;font-family:'微软雅黑';font-size:14px}
+.sign-input:focus{border:1px solid #238efa !important}
+.sign-input[readonly]{cursor:not-allowed;background-color:#eee !important;filter:alpha(opacity=100);opacity:1}
+.sign-input-border{border:1px solid #ddd;width:340px;height:45px;display:inline-block;border-radius:3px 0 0 3px;background-color:#fff}
+.sign-content .timer{position:absolute;cursor:default;color:#ccc;top:14px;right:10px}
+.sign-content .btn-getcode{position:absolute;top:0;right:0px;bottom:0;z-index:20}
+.sign-content .timer-btn{display:inline-block;font-size:12px;border:1px solid #eaeaea;background:#eaeaea !important;border-color:#eaeaea;color:#666;width:160px;height:34px;line-height:28px;margin:8px 8px 0 0;padding:0;text-align:center;text-decoration:none;overflow:hidden;white-space:nowrap;cursor:pointer;text-overflow:initial;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-transition:background-color .8s,border-color .8s;-moz-transition:background-color .8s,border-color .8s;transition:background-color .8s,border-color .8s}
+.common-btn{height:40px;line-height:40px;font-size:14px;text-align:center;cursor:pointer;border-radius:2px;display:inline-block;position:relative;color:#fff !important;background-color:#238efa;border-color:#238efa;padding:0 10px}
+.grey-btn{background:#aaa;border-color:#aaa;width:308px}
+.sign-btn{width:308px}
+.sign-btn:hover{color:#fff;background-color:#0286c2;border-color:#026e9e}
+.error-bd{border:1px solid #d58a8a}
+.sign-error{position:relative;padding:4px;color:#d58a8a;border:1px solid #d58a8a;margin-bottom:20px;border-radius:3px;background-color:#fff4f4;text-align:center;font-family:'微软雅黑';width:50%;margin:0 auto;filter:alpha(opacity=0);opacity:0}
+.opacity1{filter:alpha(opacity=100);opacity:1}
+.sign-back{text-align:center;height:30px;line-height:30px}
+.sign-container .email-sent-wrapper{width:600px;margin:50px auto;text-align:center}
+.sign-container .email-sent-wrapper button{background:none;border:none;color:#238EFA;padding:0;font-family:Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",STHeiti,sans-serif}
+.sign-container .email-sent-wrapper .alert-success{border-color:#c0ebd0;background-color:#f4fbf6;color:#47b26f}
+.sign-container .email-sent-wrapper .alert{height:130px;padding:40px;margin-bottom:30px}
+.alert-success{background-color:#dff0d8;border-color:#d6e9c6;color:#19AE54}
+.alert{padding:15px;border:1px solid transparent;border-radius:4px}
+.alert-body h5,.alert-body p{color:#47b26f;font-size:15px}
+.verifyemail-error{width:300px;height:30px;margin:0 auto;color:#F92E2E}
+.horizontal-line{width:80%;height:1px;background-color:#d9d9d9;margin:30px 30px 30px 76px}
+.sign-footer{text-align:center}
+.sign-verify{cursor:pointer;width:90px;height:40px;vertical-align:middle}
+.disabled{pointer-events:none;filter:Alpha(opacity=10);-moz-opacity:.6;opacity:0.6}
+.jx-mask{position:absolute;left:0;top:0;width:100%;height:100%;opacity:0.3;background-color:#000;filter:alpha(opacity=30);display:none;z-index:9998}
+.jx-mask-msg{position:absolute;top:50%;z-index:9999}
+.footer{padding-top:17px;text-align:center;font-size:12px;color:#9a9a9a}
+.orange_font{color:#ef5a20;font-size:18px;vertical-align:middle}
+.demo_head{margin-top:6px;text-align:center}
+.demo_head .h2{margin:0;font-size:22px;color:#333;line-height:30px;font-weight:bold}
+.demo_head .tit{font-size:16px;color:#676767;line-height:30px}
+.form-group{padding:6px 0;position:relative;font-size:14px}
+.form-group a{font-size:14px;text-decoration:none;color:#0a7868}
+.form-group-textarea{margin-bottom:5px;position:relative;height:auto}
+.control-label{padding-right:7px;margin-bottom:0;text-align:right;line-height:40px}
+.col-sm-2{width:22%;float:left}
+.col-sm-3{width:93%;margin-left:26%}
+.col-sm-4{width:97%}
+.col-sm-textarea{width:76%;max-width:76%;min-height:70px;resize:none}
+.form-control{width:76%;display:inline}
+.form-control-half{width:44%;display:inline}
+.form-control span{font-size:14px}
+.form-combox{width:78%}
+.form-select{width:78%;height:38px;border:1px solid #ddd;border-radius:3px}

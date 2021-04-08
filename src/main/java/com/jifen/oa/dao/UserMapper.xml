@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.oa.dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.jk.oa.entity.User" >
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="CREATEDATETIME" property="createdatetime" jdbcType="TIMESTAMP" />
+    <result column="LOGINNAME" property="loginname" jdbcType="VARCHAR" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="PWD" property="pwd" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="VARCHAR" />
+    <result column="UPDATEDATETIME" property="updatedatetime" jdbcType="TIMESTAMP" />
+  </resultMap>
+ 
+  <sql id="Base_Column_List" >
+    ID, CREATEDATETIME, LOGINNAME, NAME, PWD, SEX, UPDATEDATETIME
+  </sql>
+  <select id="login" parameterType="java.lang.String" resultMap="BaseResultMap">
+  	select * from sys_user where loginname = #{loginname}
+  </select>
+
+</mapper>
